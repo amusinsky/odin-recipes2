@@ -1,0 +1,29 @@
+div {
+  color: white;
+  background: linear-gradient(135deg, rgb(139, 235, 139), rgb(89, 189, 89));
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* hover effect */
+div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+div h1 {
+  color: rgb(1, 79, 19);
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.4);
+}
+
+div p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
